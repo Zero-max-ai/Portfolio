@@ -4,72 +4,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact | PortFolio</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.scss">
+    <title>Akshat Gangi | Portfolio</title>
 </head>
 <body>
-    
+
     <header>
-        <nav>
-            <div class="container">
-                <div id="navi-links">
-                    <ul>
-                        <li><a href="./index.html">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Work</a></li>
-                        <li><a href="./contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        <div class="container">
+            <ul class="navi-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Resume</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
     </header>
 
-    <div class="main-body">
+    <div class="contact-body">
         <div class="container">
+            <div class="my-details">
+                <h1>Contact</h1>
+                <p>Looking forward to hearing from you</p>
+                <!-- <p>Let's talk</p> -->
+                <h2>Phone</h2>
+                <p>+91-8700-9155-70</p>
+                <h2>Email</h2>
+                <p>gangi.keshav03@gmail.com</p>
+            </div>
             <div class="form-page">
-                <form method="post">
-                    <div class="block">
-                        <label for="">Email: </label>
-                        <input type="email" name="" id="" placeholder="johndoe@gmail.com">
+                <form action="" method="post">
+                    <div class="block block1">
+                        <label for="">First Name</label>
+                        <input type="text" name="" id="" required>
                     </div>
-                    <div class="block">
-                        <label for="">Subject: </label>
-                        <input type="text" name="" id="" placeholder="subject...">
+                    <div class="block block2">
+                        <label for="">Last Name</label>
+                        <input type="text" name="" id="" required>
                     </div>
-                    <div class="block">
-                        <label for="">Message: </label>
-                        <textarea name="" id="" cols="30" rows="10" spellcheck="true" placeholder="message..."></textarea>
+                    <div class="block block3">
+                        <label for="">Email</label>
+                        <input type="email" name="" id="" required>
                     </div>
-                    <div class="block">
-                        <button class="btn" id="btn" type="submit">Send</button>
+                    <div class="block block4">
+                        <label for="">Subject</label>
+                        <input type="text" name="" id="" required>
+                    </div>
+                    <div class="block block5">
+                        <label for="">Message</label>
+                        <textarea name="" id="" cols="30" rows="7" required></textarea>
+                    </div>
+                    <div class="block block6">
+                        <button type="submit" class="btn snd-btn">Send</button>
                     </div>
                 </form>
-            </div>
-            <div class="my-details">
-                <h1>My Contact Details</h1>
-                <ul>
-                    <li><i class="fa-solid fa-phone"></i> <span>+918700915570</span></li>
-                    <li<i class="fa-regular fa-envelope"></i> <span>gangi.keshav03@gmail.com</span></li>
-                    <li><i class="fa-solid fa-location-dot"></i> <span>3090, 3rd Floor, Mahindra Park, Rani Bagh, Delhi-34</span></li>
-                </ul>
             </div>
         </div>
     </div>
 
     <footer>
-        <div class="footer-changer">
-            <div class="container">
-                <div id="socio-links">
-                    <ul>
-                        <li><a href="#"><abbr title="github"><i class="fa-brands fa-github"></abbr></i></a></li>
-                        <li><a href="#"><abbr title="linkedin"><i class="fa-brands fa-linkedin"></abbr></i></a></li>
-                        <li><a href="#"><abbr title="discrod"><i class="fa-brands fa-discord"></abbr></i></a></li>
-                    </ul>
-                </div>
+        <div class="container">
+            <div class="f1">
+                <h2>Phone</h2>
+                <p><i class="fa-duotone fa-phone-office"></i> +91-8700-9155-70</p>
+            </div>
+            <div class="f2">
+                <h2>Email</h2>
+                <p><i class="fa-duotone fa-mailbox"></i> gangi.keshav03@gmail.com</p>
+            </div>
+            <div class="f3">
+                <h2>Follow Me</h2>
+                <i class="fa fa-github"></i>
+                <i class="fa fa-linkedin"></i>
             </div>
         </div>
     </footer>
 
+    <script src="https://kit.fontawesome.com/74ef05c2e3.js" crossorigin="anonymous"></script>
 </body>
 </html>
