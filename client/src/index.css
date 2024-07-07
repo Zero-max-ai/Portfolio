@@ -6,3 +6,21 @@
 * {
 	font-family: "DM Mono", monospace, sans-serif;
 }
+
+body {
+	background: black;
+}
+
+.mouse_middle_btn_animate {
+	animation: mouse_animation 1.5s infinite;
+}
+
+@keyframes mouse_animation {
+	0% {
+		transform: translateY(0px)
+	}
+	100% {
+		transform: translateY(5px);
+		opacity: 0.1;
+	}
+}

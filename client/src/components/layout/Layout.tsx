@@ -1,7 +1,12 @@
+import React from 'react'
 import Navbar from '../Navbar.tsx'
 import Footer from '../Footer.tsx'
 
-const Layout = ({children}) => {
+interface LayoutProps {
+	children: React.ReactNode
+}
+
+const Layout : React.FC<LayoutProps> = ({ children }) => {
 	return (
 		<div>
 			<Navbar />
