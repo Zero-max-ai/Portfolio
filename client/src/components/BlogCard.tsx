@@ -1,14 +1,16 @@
+import { Link } from 'react-router-dom'
+
 interface BlogCardProps {
 	imgSource: string;
 	title: string;
 }
 
-const BlogCard = ({ imgSource, title } : BlogCardProps) => {
+const BlogCard = ({ loc, imgSource, title } : BlogCardProps) => {
 	return (
-		<div className="flex-grow flex-shrink w-52">
+		<Link to={loc} className="flex flex-col flex-grow flex-shrink gap-1 w-52 max-md:text-xs">
 			<img src={imgSource} className="rounded-md" />
 			<span>{ title }</span>
-		</div>
+		</Link>
 	)
 }
 

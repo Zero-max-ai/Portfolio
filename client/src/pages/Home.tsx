@@ -9,20 +9,20 @@ const Home = () => {
 	return (
 		<Layout>
 			<div className="text-white">
-				<div className="h-[90vh] w-1/2 max-md:w-11/12 mx-auto flex items-center justify-between">
+				<div className="w-7/12 max-md:w-11/12 mx-auto md:py-80 py-40 flex max-md:flex-col-reverse max-md:gap-8 items-center justify-between">
 					<div className="flex flex-col gap-4">
 						<h1 className="text-3xl">Akshat Gangi</h1>
-							<span>MERN / Frontend Developer / Designer</span>
-						<span className="flex items-center gap-3 text-gray-600">
+							<span className="max-md:text-xs">MERN / Frontend Developer / Designer</span>
+						<span className="flex items-center gap-3 text-gray-600 max-md:text-xs">
 							<Mouse /> <span>Scroll down to see more details.</span>
 						</span>
-						<Link to={'/work'} className="bg-cyan-800 hover:bg-cyan-700 duration-150 px-3 py-1 rounded-md w-fit hover:underline">Projects</Link>
+						<Link to={'/work'} className="bg-cyan-800 hover:bg-cyan-700 duration-150 px-3 py-1 max-md:text-xs rounded-md w-fit hover:underline">Projects</Link>
 					</div>
-					<div className="w-1/5">
+					<div className="w-1/5 max-md:w-2/5">
 						<img src={AkshatImg} alt={'Akshat Gangi pfp'} className="rounded-full" />
 					</div>
 				</div>
-				<div className="w-1/2 max-md:w-11/12 mx-auto flex flex-col gap-3 pt-10 pb-40 border-t">
+				<div className="w-7/12 max-md:w-11/12 mx-auto flex flex-col gap-3 pt-10 pb-40 border-t">
 					<h1 className="text-xl font-bold">Skills</h1>
 					<SkillCard title={'Frontend'} icons={frontend} />
 					<SkillCard title={'Backend'} icons={backend} />

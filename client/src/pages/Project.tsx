@@ -5,7 +5,7 @@ import ProjectCard from '../components/ProjectCard.tsx'
 const Project = () => {
 	return (
 		<Layout>
-			<div className="w-5/12 mx-auto text-white pt-40">
+			<div className="w-7/12 max-md:w-11/12 mx-auto text-white pt-40">
 				<h1 className="font-bold">Projects</h1>
 				<div className="flex flex-wrap w-full gap-5 items-center pt-4">
 					<ProjectCard title={'MyPovLife'} image={MyPovLifeImg} live={'https://my-pov-life.vercel.app'} source={'https://github.com/Zero-max-ai/MyPovLife'} />
