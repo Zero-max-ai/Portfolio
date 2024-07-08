@@ -53,7 +53,7 @@ const NavbarNavigation = () => {
 				<div className="w-full gap-5 flex flex-col items-start absolute top-14 left-0 bg-gray-900 px-5 py-3">
 					<div className="w-full flex flex-col items-start gap-4 max-md:text-xs">
 				  	{navbarLinks.map(( items : NavLinkType ) => {
-							return <NavLink key={items.title} to={items.loc} className="p-2 w-full rounded" onClick style={ ({ isActive }) => isActive ? { background: "#0e7490", textDecoration: "underline" } : { background: "transparent"     } }>
+							return <NavLink key={items.title} to={items.loc} className="p-2 w-full rounded" style={ ({ isActive }) => isActive ? { background: "#0e7490", textDecoration: "underline" } : { background: "transparent"     } }>
 								{items.title}
 							</NavLink> })
 						}

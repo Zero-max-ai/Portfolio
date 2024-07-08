@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 interface BlogCardProps {
 	imgSource: string;
 	title: string;
+	loc: string;
 }
 
 const BlogCard = ({ loc, imgSource, title } : BlogCardProps) => {

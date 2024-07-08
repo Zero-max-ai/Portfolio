@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 interface ProjectCardProps {
 	title: string;
-	img: string;
+	image: string;
 	live: string;
 	source: string;
 }
