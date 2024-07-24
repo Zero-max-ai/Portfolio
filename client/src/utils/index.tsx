@@ -18,7 +18,7 @@ export const languages = [
   { title: "Javascript", icon: <IoLogoJavascript /> },
   { title: "Python", icon: <IoLogoPython /> },
   { title: "C++", icon: <PiFileCpp /> },
-  { title: "C++", icon: <BiLogoGoLang /> },
+  { title: "GoLang", icon: <BiLogoGoLang /> },
 ];
 export const backend = [
   { title: "Express", icon: <SiExpress /> },
